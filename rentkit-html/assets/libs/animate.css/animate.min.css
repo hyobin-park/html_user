@@ -8,14 +8,14 @@
  * Copyright (c) 2020 Animate.css
  */
 :root {
-    --animate-duration: 30s;
-    --animate-delay: 30s;
+    --animate-duration: 3s;
+    --animate-delay: 3s;
     --animate-repeat: 1
 }
 
 .animate__animated {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-duration: var(--animate-duration);
     animation-duration: var(--animate-duration);
     -webkit-animation-fill-mode: both;
