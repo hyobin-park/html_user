@@ -40302,7 +40302,8 @@ h6 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
-    color: #212529
+    color: #212529;
+    font-family: 'MICEGothic Bold';
 }
 
 .h1,
@@ -40559,12 +40560,14 @@ textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
-    line-height: inherit
+    line-height: inherit;
+    font-family: 'MICEGothic Bold';
 }
 
 button,
 select {
-    text-transform: none
+    text-transform: none;
+    font-family: 'MICEGothic Bold';
 }
 
 [role=button] {
@@ -40845,7 +40848,8 @@ progress {
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    font-family: 'MICEGothic Bold';
 }
 
 @media (min-width:576px) {
@@ -73056,4 +73060,15 @@ svg.leaflet-image-layer.leaflet-interactive path {
     .step::after {
         display: none
     }
+}
+
+@font-face {
+    font-family: 'MICEGothic Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.noUi-tooltip {
+    font-size: 13px; 
 }
