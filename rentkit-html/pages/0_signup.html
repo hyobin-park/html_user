@@ -69,6 +69,20 @@
                   <label for="Name" class="form-label">이름</label>
                   <input type="text" class="form-control" id="name" placeholder="이름을 입력해주세요" required>
                 </div>
+                <!-- 성별 -->
+                <div class="mb-3">
+                  <label for="gender" class="form-label">성별</label>
+                  <select class="select2">
+                    <option value="Female">여자</option>
+                    <option value="Male">남자</option>
+                    <option value="Etc">기타</option>
+                  </select>
+                </div>
+                <!-- 생년월일 -->
+                <div class="mb-3">
+                  <label for="birthdate" class="form-label">생년월일</label>
+                  <input type="date" class="form-control" id="name" placeholder="YYYYMMDD" required>
+                </div>
                 <!-- 전화번호 -->
                 <div class="mb-3">
                   <label for="Tel" class="form-label">전화번호</label>
@@ -78,11 +92,13 @@
                 <!-- text -->
                 <div class="row">
                   <div class="col-md-12">
-                    <input type="checkbox"><label class="text-sm"><strong class="text-dark">&nbsp;[필수] 이용약관</strong></label>
+                    <input type="checkbox"><label class="text-sm"><strong class="text-dark">&nbsp;[필수]
+                        이용약관</strong></label>
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      <input type="checkbox"><label class="text-sm"><strong class="text-dark">&nbsp;[필수] 개인정보 수집 및 이용안내</strong></label>
+                      <input type="checkbox"><label class="text-sm"><strong class="text-dark">&nbsp;[필수] 개인정보 수집 및
+                          이용안내</strong></label>
                     </div>
                   </div>
                   <!-- button -->
